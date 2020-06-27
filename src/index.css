@@ -132,33 +132,35 @@ ul li a:hover::after {
 .nav-list {
   overflow: hidden;
 }
-center{
-  margin-left:500px;
+
+#about {
+  display: flex;
 }
-.content p{
-  margin-left:600px;
+
+.about-img {
+  width: 40%;
+  min-width: 564px;
 }
-.row h4
-{
-   margin-left:700px;
+.about-img > img {
+  width: 564px;
+  height: 512px;
+  margin: auto;
+  display: block;
 }
-.row p{
-  position: absolute;
-  right: 400px;  
-  width: 300px;
-  margin-top:1px;
-  
-  
+
+.about-content {
+  width: 60%;
 }
-.row2 h4
-{
-   margin-left: 1150px;
-   position: relative;
-  
+
+.about-content > h3, .about-content > p {
+  text-align: center;
 }
-.row2 p{
-  position: absolute;
-  right: 50px;  
-  width: 200px;
-  
+
+.row {
+  display: flex;
+}
+
+.row-content {
+  width: 40%;
+  margin: 24px;
 }
