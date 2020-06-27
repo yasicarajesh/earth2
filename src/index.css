@@ -11,3 +11,154 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+img{
+  width: 100%;
+  height: 600px;
+}
+
+.logo-section {
+width: 60px;
+height: 60px;
+}
+.logo {
+width: 60px;
+height: 60px;
+}
+header {
+height: 60px;
+width: 100%;
+opacity: 0.8;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+background: black;
+display: flex;
+align-items: center;
+}
+.navigation {
+margin-left: auto;
+margin-right: 150px;
+}
+.nav-list {
+list-style-type: none;
+display: flex;
+color: white;
+}
+.nav-list > li {
+margin: 0;
+}
+.nav-list > li > a{
+  
+  text-decoration:none;
+  color:white;
+
+  }
+.fa{
+  margin-left:10px;
+}
+menu{
+position: absolute;
+bottom: -130px;
+background: white;
+padding: 20px;
+}
+
+/* ul li a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  transition: 0.39s;
+}
+
+ul li a:hover {
+  color: #74c92d;
+}
+ul li a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  top: 100%;
+  left: 0;
+  background: #ff7000;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+} */
+
+
+.nav-list a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  margin: 0 24px;
+  text-decoration: none;
+}
+.dropdown-content {
+  margin-top:28px;
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.nav-list a:hover {
+  border-bottom: 3px solid green;
+  text-decoration: none;
+
+}
+.nav-list a.active {
+  border-bottom: 3px solid green;
+ }
+.nav-list {
+  overflow: hidden;
+}
+center{
+  margin-left:500px;
+}
+.content p{
+  margin-left:600px;
+}
+.row h4
+{
+   margin-left:700px;
+}
+.row p{
+  position: absolute;
+  right: 400px;  
+  width: 300px;
+  margin-top:1px;
+  
+  
+}
+.row2 h4
+{
+   margin-left: 1150px;
+   position: relative;
+  
+}
+.row2 p{
+  position: absolute;
+  right: 50px;  
+  width: 200px;
+  
+}
