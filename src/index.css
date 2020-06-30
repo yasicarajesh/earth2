@@ -11,17 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-img{
-  width: 100%;
-  height: 600px;
-}
+
 
 .logo-section {
 width: 60px;
 height: 60px;
 }
 .logo {
-width: 60px;
+width: 100px;
 height: 60px;
 }
 header {
@@ -41,14 +38,24 @@ margin-right: 150px;
 list-style-type: none;
 display: flex;
 color: white;
-}
-.nav-list > li {
+overflow: hidden;
+height: 60px;
 margin: 0;
 }
-.nav-list > li > a{
+.nav-list > li,.nav-list > div {
+margin: 0;
+display: flex;
+align-items: center;
+
+}
+
+.nav-list > li > a,.nav-list > div > a,nav-list > div{
   
   text-decoration:none;
-  color:white;
+  color: white;
+  opacity: 1;
+  border-bottom: 3px solid transparent;
+  height: 24px;
 
   }
 .fa{
@@ -59,6 +66,7 @@ position: absolute;
 bottom: -130px;
 background: white;
 padding: 20px;
+opacity: 1;
 }
 
 /* ul li a {
@@ -95,14 +103,14 @@ ul li a:hover::after {
   color: white;
   margin: 0 24px;
   text-decoration: none;
+  border-bottom: 3px solid transparent;
+  height: 24px;
 }
 .dropdown-content {
   margin-top:28px;
   display: none;
   position: absolute;
   background-color: white;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
 .dropdown-content a {
@@ -124,13 +132,16 @@ ul li a:hover::after {
 .nav-list a:hover {
   border-bottom: 3px solid green;
   text-decoration: none;
+  
 
 }
 .nav-list a.active {
   border-bottom: 3px solid green;
  }
-.nav-list {
-  overflow: hidden;
+
+img{
+  width: 100%;
+  height: 600px;
 }
 
 #about {
@@ -149,7 +160,8 @@ ul li a:hover::after {
 }
 
 .about-content {
-  width: 60%;
+  width: 50%;
+  font-weight:500;
 }
 
 .about-content > h3, .about-content > p {
@@ -163,4 +175,95 @@ ul li a:hover::after {
 .row-content {
   width: 40%;
   margin: 24px;
+  height:120px;
+}
+.fa-recycle{
+  
+  color: green;
+  font-size:30px;
+}
+.fa-cubes
+{
+  color:green;
+  font-size:30px;
+}
+.fa-user-shield
+{
+  color:green;
+  font-size:30px;
+}
+.fa-file-contract
+{
+  color: green;
+  font-size:30px;
+}
+#client 
+{
+  display: flex;
+  flex-wrap: nowrap;
+  
+}
+.client > div{
+  
+  margin:100px;
+  text-align:center;
+  /* line-height: 75px; */
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.fa-smile
+{
+  color: green;
+  font-size:30px;
+}
+.fa-project-diagram
+{
+  color: green;
+  font-size:30px;
+}
+.fa-headset
+{
+  color: green;
+  font-size:30px;
+}
+.fa-users
+{
+  color: green;
+  font-size:30px;
+}
+/* .im{
+  background: url("/assets/img/home.jpg");
+  background-repeat: no-repeate;
+  background-size: cover;
+} */
+
+ 
+
+
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: example;
+  animation-duration: 6s;
+  font-size: 50px;
+  font-weight: 600px;
+  color: darkgreen;
+  font-family: Brush Script MT;
+}
+@keyframes example {
+  0%   {left:0px;}
+  50%  {left:650px;}
+  
+} 
+.second{
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: 00px;
+  font-family:Garamond;
 }

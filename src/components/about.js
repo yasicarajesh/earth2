@@ -16,25 +16,25 @@ class About extends React.Component {
             </p>
             <div class="row">
               <div class="row-content">
-                <i class="bx bx-receipt"></i>
-                <h4>What We Do</h4>
+             
+                <h4> <i class="fa fa-recycle"/>  What We Do</h4>
                 <p>Earth Recycler work towards ‘Zero Landfill’.All the scrap that is given to us is recycled, diverted and becomes a useful product.</p>
               </div>
               <div class="row-content">
-                <i class="bx bx-cube-alt"></i>
-                <h4>Vision</h4>
+                
+                <h4><i class='fas fa-cubes'></i>  Vision</h4>
                 <p>Engaging us will make it a win-win combination not only for both you and us, but also for the environment</p>
               </div>
             </div>
             <div class="row">
               <div class="row-content">
-                <i class="bx bx-images"></i>
-                <h4>Mission</h4>
+                
+                <h4><i class='fas fa-user-shield'/>  Mission</h4>
                 <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
               </div>
               <div class="row-content">
-                <i class="bx bx-shield"></i>
-                <h4>Beatae veritatis</h4>
+                
+                <h4><i class='fas fa-file-contract'/>  Beatae veritatis</h4>
                 <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
               </div>
             </div>
