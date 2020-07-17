@@ -25,9 +25,6 @@ height: 60px;
 header {
 height: 60px;
 width: 100%;
-
-opacity: 0.8;
-
 position: fixed;
 z-index: 15;
 display: flex;
@@ -334,10 +331,11 @@ img{
 }
 .tope
 {
-height: 50px;
+height: 70px;
 width: 100%;
 background-color: white;
 display:flex;
+position:relative;
 
 }
 .fa-sign-in
@@ -410,7 +408,7 @@ button{
 }
 .icon-bar
 {
-    position:fixed;
+    position:absolute;
     /* padding-top:10px;
     padding-bottom:10px;
     padding-left: 50px;
@@ -611,32 +609,31 @@ input.form-control
 
 }  
 .back{
-   
-  padding: 10px; 
-  height:85%;
+
+  padding: 10px;
   
   font-family:'Fira Sans', sans-serif;
-  position: absolute;
-  top: 5%;
-  left:0;
+  height: 800px;
   font-size: 20px;
   font-weight: 600;
-  margin:20px;
- }
+  
+  background: url("/assets/img/interwaste.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
  
- .sec{
-
+  }
+  
+  .sec{
+  
   padding-left:100px;
   font-family:'Quicksand', sans-serif;
-  position: absolute;
-  
-  top:-7%;
-  left:20%;
   font-size: 40px;
+  display: flex;
+  justify-content: center;
   font-weight: 600;
   margin:0px;
-   
- }
+  
+  }
  
  /* .dud
  {
@@ -655,11 +652,11 @@ input.form-control
 
  .sub
  {
-   padding-left:100px;
+   padding-left:220px;
  }
  
  
-  .four{
+ .four{
 
   padding-left:100px;
   font-family:'Quicksand', sans-serif;
@@ -672,15 +669,15 @@ input.form-control
   /*
   display:block;
   margin-block-start: 3em;
-    margin-block-end: 4em;
-    margin-inline-start: 3px;
-    margin-inline-end: 4px; */
+  margin-block-end: 4em;
+  margin-inline-start: 3px;
+  margin-inline-end: 4px; */
   margin:0px;
   color: rgba(0, 0, 0, 0.733);
   text-align: center;
-text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
-    0px -4px 10px rgba(255,255,255,0.3);
-
+  text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
+  0px -4px 10px rgba(255,255,255,0.3);
+  
   }
   .fa-home 
   {
@@ -733,15 +730,19 @@ text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
 .beni
  {
   position:absolute;
-   top:63%;
+   top:66%;
    left:30%;
    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
- color:black;
+  color:black;
   font-size:27px;
    font-weight:600px;
    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
     
+ }
+ .house
+ {
+   position:relative;
  }
 
  .house1 {
@@ -763,7 +764,6 @@ text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
    padding-left:20px;
    padding-right:20px;
    padding-top:50px;
-   padding-bottom:40px;
    font-size:34px;
    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight:600px;
@@ -772,8 +772,8 @@ text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
    
  }
  .brain img{
-   width:729px;
-   height:729px;
+   width:600px;
+   height:600px;
    margin-top:5px;
    margin-left:0px;
    
@@ -790,36 +790,35 @@ text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
  .elecon
  { 
   
-   margin-left:600px;
-   margin-right:10px;
-   position:absolute;
-   top:1888px;
+   margin-top:250px;
    text-align:center;
    font-size:22px;
    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+   padding-right: 50px;
+    padding-left: 50px;
     font-weight:500px;
 }
 .ho img{
   width:500px;
   height:426px;
   margin-left:10px;
+  margin-top:40px;
 }
 .ho{
   margin-bottom:100px;
   margin-top:100px;
 }
 .ho2{
-  margin-left:650px;
-
-  position:absolute;
-  top:1120px;
-  margin-right:100px;
+  
   font-size:22px;
   text-align:justify;
-  
-
-
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:130px;
+}
+.ho3
+{
+  display:flex;
 }
 .ho1
 {
@@ -829,14 +828,133 @@ text-shadow: 2px 7px 5px rgba(0,0,0,0.3),
    font-weight:600px;
    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
-    position:absolute;
-    top:930px;
-  }
-  .com1
-  {
+    
     
   }
- 
+  .brain1
+  {
+      display:flex;
+  }
+  .com1{
+    position:relative;
+  }
+  .com1 img{
+    width:1600px;
+    height:600px;
+  }
+  .com2
+  {
+   
+   
+  background-color:rgba(245, 245, 245, 0.39);
+   padding:20px;
+   position:absolute;
+   top:350px;
+   left:800px;
+   height:100px;
+   width:500px;
+   color:black;
+   border-radius:10px;
+   text-align:center;
+   font-size:30px;
+   
+   
+  }
+  .com3
+  {
+    padding-left:45px;
+    padding-right:45px;
+    padding-top:50px;
+    font-size:30px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:600px;
+    text-align:center;
+   
+  }
+  .com4
+  {
+    display:flex;
+  }
+  .com4 img{
+    width:450px;
+    height:377px;
+    margin-left:10px;
+  }
+  .com5
+  {
+  font-size:20px;
+  text-align:justify;
+  margin-left:100px;
+  margin-right:100px;
+  margin-top:90px;
+  }
+  .com9 img{
+    width:143px;
+    height:189px;
+    margin-top:140px;
+    margin-left:200px;
+  }
+  
+  .com10 img{
+    width:195px;
+    height:123px;
+    margin-top:160px;
+    margin-left:200px;
+  }
+  .com11 img{
+    width:300px;
+    height:300px;
+    margin-top:90px;
+    margin-left:200px;
+  }
+  .com8
+  {
+    display:flex;
+  }
+  .com7
+  {
+    margin-top:50px;
+    font-size:50px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:600px;
+    margin-left:250px;
+  }
+  /* .indus1
+  {
+  
+
+  
+  font-family:'Fira Sans', sans-serif;
+  height: 800px;
+  font-size: 20px;
+  font-weight: 600;
+  
+  background: url("/assets/img/indudus.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:1680px;
+  height:1980px;
+  
+  } */
+  .indus2
+  {
+    background: url("/assets/img/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+  }
+  /* .indus2 h4.
+  {
+    font-size:20px;
+    font-weight:600px;
+    font-family:'Fira Sans', sans-serif;
+    background-color:rgba(0, 0, 0, 0.6);
+    width:550px;
+    height:90px;
+    color:white;
+    margin-top:100px;
+  } */
+  
   /* constructor(props)
   {
     super(props);

@@ -5,11 +5,12 @@ class Tophead extends React.Component {
             <>
 
 
-            <div className="logo-section">
-                        <img className="logo" src="assets/img/Earth-Recycler-Logo.png"/>
-                    </div>
                     
              <div class="tope">
+             
+            <div className="logo-section">
+            <img className="logo" src="assets/img/Earth-Recycler-Logo.png"/>
+            </div>
             <div class="icon-bar">
   <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
   <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 

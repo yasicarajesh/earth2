@@ -6,7 +6,7 @@ class Inter extends React.Component {
               <div class="inter">
               <div class="dud"></div>
               
-              <img src="assets/img/interwaste.jpg"/>
+             
               <div class="back">
               <div class="sec">
                <h4>Intergrated Waste Management</h4>
@@ -57,7 +57,7 @@ class Inter extends React.Component {
          <i class='far fa-building'/> <br/>Commercial <br/><div class="ba"><a href="/commer">Learn more <i class='fas fa-angle-right'></i></a></div>
          </div>
          <div>
-         <i class='fas fa-industry'/> <br/>Industrial <br/><div class="ba"><a href="#">Learn more <i class='fas fa-angle-right'></i></a></div>
+         <i class='fas fa-industry'/> <br/>Industrial <br/><div class="ba"><a href="/indus">Learn more <i class='fas fa-angle-right'></i></a></div>
          </div>
          <div>
           <i class='fas fa-school'/> <br/>Institutions <br/><div class="ba"><a href="#">Learn more <i class='fas fa-angle-right'></i></a></div>
