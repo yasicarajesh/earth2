@@ -31,11 +31,17 @@ display: flex;
 align-items: center;
 background:none;
 }
+body.house header a{
+  color:white;
+}
 
 .make-header{
  
   top:0;
   background: #c0c0c0;
+}
+body.house header.make-header a{
+  color:black;
 }
 .navigation {
 margin-left: auto;
@@ -122,7 +128,7 @@ ul li a:hover::after {
   font-weight: 700;
   color: black;
 
-  font-size: 16px;
+  
   font-weight: 600;
   color: black;
   margin: 0 24px;
@@ -189,6 +195,7 @@ img{
 
 #about {
   display: flex;
+  margin-top:100px;
 }
 
 .about-img {
@@ -241,23 +248,23 @@ img{
   color: green;
   font-size:30px;
 }
-#client 
+.client 
 {
+  margin-top:20px;
+ 
   display: flex;
-  
   background-color:#f5f5f5;
-  padding-bottom:10px;
-  padding-top:10px;
+  
   font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding-left:75px;
+  padding-left:100px;
  
 }
 .client > div{
   
-  margin:100px;
-  text-align:center;
+  margin:90px;
+ 
   /* line-height: 75px; */
-  font-size: 20px;
+  font-size : 20px;
   font-weight: 600;
   
   
@@ -266,6 +273,30 @@ img{
   color:rgba(0, 0, 255, 0.781);
   text-decoration: none;
   position:relative;
+}
+
+#client1
+{
+  display: flex;
+  background-color:#f5f5f5;
+  padding-bottom:30px;
+  padding-top:10px;
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-left:75px;
+ 
+}
+.client1 > div{
+  
+  margin:100px;
+  font-size: 20px;
+  font-weight: 600;
+  
+  
+}
+
+.client1 div p a{
+  color:rgba(0, 0, 255, 0.781);
+  text-decoration: none;
 }
 .ba{
    position: absolute;
@@ -303,32 +334,12 @@ img{
 .im {
   position: relative;
 }
-.centered {
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation-name: example;
-  animation-duration: 6s;
-  font-size: 40px;
-  font-weight: 900px;
-  color: rgb(0, 52, 100);
-  font-family: 'Quicksand', sans-serif;
-}
+
 @keyframes example {
   0%   {left:0px;}
   50%  {left:650px;}
   
 } 
-.second{
-  position: absolute;
-  top: 20%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  font-weight: 00px;
-  font-family:'Quicksand', sans-serif;
-}
 .tope
 {
 height: 70px;
@@ -447,7 +458,7 @@ button{
   align-items:center;
   height:80vh;
   position: absolute;
-  top:13%;
+  top:20%;
   left:460px;
   
  
@@ -575,6 +586,7 @@ input.form-control
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:500;
     margin-top:120px;
+   
 
 }
 .pa{
@@ -587,13 +599,24 @@ input.form-control
     list-style-type: none;
     display:flex;
     font-weight:500;
+    margin-bottom:20px;
+    margin-top:35px;
   font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-left:-120px;
+  
+  }
+  .ben1
+  {
+    margin-right:20px;
+    
+    
   }
   .ben i
   {
-    font-size:20px;
+    font-size:22px;
     color:#00cf00;
   }
+  
   
 
 .inter{
@@ -632,6 +655,7 @@ input.form-control
   justify-content: center;
   font-weight: 600;
   margin:0px;
+  margin-top:40px;
   
   }
  
@@ -654,24 +678,19 @@ input.form-control
  {
    padding-left:220px;
  }
- 
+
  
  .four{
 
   padding-left:100px;
-  font-family:'Quicksand', sans-serif;
-  padding-top:13%;
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top:8%;
   padding-left:30%;
   font-size: 20px;
   font-weight: 600;
   width: 40%;
   
-  /*
-  display:block;
-  margin-block-start: 3em;
-  margin-block-end: 4em;
-  margin-inline-start: 3px;
-  margin-inline-end: 4px; */
+  
   margin:0px;
   color: rgba(0, 0, 0, 0.733);
   text-align: center;
@@ -683,23 +702,27 @@ input.form-control
   {
     font-size:60px;
     color: rgba(0,0,0,0.6);
+    margin-left:16px;
    
   }
   .fa-building
   {
     font-size:60px;
     color: rgba(0,0,0,0.6);
+    margin-left:16px;
     
   }
   .fa-industry
   {
     font-size:60px;
     color: rgba(0,0,0,0.6);
+    margin-left:16px;
   }
 .fa-school
 {
   font-size:60px;
     color:  rgba(0,0,0,0.6);
+    margin-left:16px;
     /* display: inline-block;
     border-radius: 60px;
     box-shadow: 0px 0px 2px #888;
@@ -716,6 +739,7 @@ input.form-control
 .what
 {
   display:flex;
+ 
 }
 
 .tit
@@ -729,16 +753,27 @@ input.form-control
 }
 .beni
  {
-  position:absolute;
-   top:66%;
-   left:30%;
+  
+   padding-top:35px;
+   margin-left:400px;
+   margin-bottom:40px;
    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  color:black;
-  font-size:27px;
+   color:black;
+   font-size:27px;
    font-weight:600px;
    text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
     0px -4px 10px rgba(255,255,255,0.3);
     
+ }
+ .beni1
+ {
+  background: url("/assets/img/bgmap.jpg");
+  background-size: cover;
+ background-repeat: no-repeat;
+ margin-top:-60px;
+ margin-bottom:100px;
+ height:490px;
+ 
  }
  .house
  {
@@ -764,10 +799,12 @@ input.form-control
    padding-left:20px;
    padding-right:20px;
    padding-top:50px;
+   padding-bottom:50px;
    font-size:34px;
    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
    font-weight:600px;
    text-align:center;
+   background-color:#f5f5f5
   
    
  }
@@ -835,12 +872,19 @@ input.form-control
   {
       display:flex;
   }
-  .com1{
-    position:relative;
+  .com17
+  {
+    background: url("/assets/img/comvar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
-  .com1 img{
-    width:1600px;
-    height:600px;
+  
+  .com6
+  {
+    background: url("/assets/img/bgmap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
   }
   .com2
   {
@@ -865,47 +909,59 @@ input.form-control
     padding-left:45px;
     padding-right:45px;
     padding-top:50px;
+    padding-bottom: 50px;
+    background-color:#f5f5f5;
+    
     font-size:30px;
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:600px;
     text-align:center;
-   
+    
   }
   .com4
   {
     display:flex;
+    padding-top:150px;
+    background: url("/assets/img/bgmap.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .com4 img{
     width:450px;
     height:377px;
     margin-left:10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    border: 3px solid #ececec;
   }
   .com5
   {
   font-size:20px;
   text-align:justify;
   margin-left:100px;
-  margin-right:100px;
+  margin-right:10px;
   margin-top:90px;
+ 
+  
+ 
   }
   .com9 img{
-    width:143px;
-    height:189px;
-    margin-top:140px;
-    margin-left:200px;
+    width:455px;
+    height:375px;
+    margin-left:100px;
+    margin-top:70px;
+    
   }
   
-  .com10 img{
-    width:195px;
-    height:123px;
-    margin-top:160px;
-    margin-left:200px;
-  }
+ 
   .com11 img{
-    width:300px;
-    height:300px;
-    margin-top:90px;
-    margin-left:200px;
+    width:455px;
+    height:360px;
+    margin-left:250px;
+    margin-top:70px;
+    
   }
   .com8
   {
@@ -913,13 +969,24 @@ input.form-control
   }
   .com7
   {
-    margin-top:50px;
-    font-size:50px;
+    
+    padding-top:90px;
+    font-size:40px;
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight:600px;
-    margin-left:250px;
+    margin-left:500px;
   }
-  /* .indus1
+  .in8{
+     display:flex;
+  }
+  .in9 img{
+     width:455px;
+     height:377px;
+     
+     
+    
+
+       }     /* .indus1
   {
   
 
@@ -936,13 +1003,330 @@ input.form-control
   height:1980px;
   
   } */
-  .indus2
+  .indus1
   {
+    padding: 10px;
+  
+    font-family:'Fira Sans', sans-serif;
+    height: 800px;
+    font-size: 20px;
+    font-weight: 600;
     background: url("/assets/img/home.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height:100vh;
+    
   }
+  .indus2 h4
+  {
+    font-size:25px;
+    font-weight:600px;
+    font-family:Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   padding-left:350px;
+   padding-top:180px;
+  }
+ .indus3
+ {
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:50px;
+  padding-bottom:50px;
+  font-size:30px;
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight:600px;
+  text-align:center;
+  background-color:#f5f5f5;
+ }
+ .indus4{
+   display:flex;
+   background: url("/assets/img/bgmap.jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
+  margin-top:140px;
+ }
+ .indus5 img
+ {
+   width:455px;
+   height:377px;
+   margin-left:50px;
+   margin-top:70px;
+ }
+  .indus6
+ {
+    margin-top:180px;
+    margin-left:100px;
+    margin-right:100px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:500;
+    font-size:17px;
+    text-align: justify;
+    }
+    .ind{
+      margin-top:50px;
+      margin-bottom:90px;
+      margin-left:350px;
+      font-size:25px;
+      padding-top:40px;
+      
+     
+    }
+
+    .map
+    {
+     
+      background: url("/assets/img/bgmap.jpg");
+      background-size: cover;
+     background-repeat: no-repeat;
+       margin-top:10%;
+    }
+    .indusy{
+      display:flex;
+     
+      margin-left:150px;
+      margin-right:100px;
+     
+      
+    }
+    .indi1{
+      display:flex;
+    }
+  .indi img{
+    width:500px;
+    height:260px;
+
+  }
+    .indus7
+    {
+      margin-right:20px;
+      margin-bottom:40px;
+     
+      font-size:25px;
+      
+    }
+    .indus8
+    {
+      font-size:20px;
+    }
+    .indus12
+    {
+      margin-top:10%;
+      background: url("/assets/img/bgmap.jpg");
+      background-size: cover;
+     background-repeat: no-repeat;
+     margin-bottom:10%;
+      
+    }
+    .indus12 p
+    {
+     
+      font-size:30px;
+      margin-left:600px;
+      padding-top:30px;
+      font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+     
+    }
+    .line{
+      content: '';
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: green;
+      border-radius: 25%;
+      margin-top:-20px;
+      margin-left:620px;
+  }
+  .line2
+  {
+
+      content: '';
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: green;
+      border-radius: 25%;
+      margin-top:-20px;
+      margin-left:650px;
+  }
+    .line1{
+      content: '';
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: green;
+      border-radius: 25%;
+      margin-top:-80px;
+      margin-left:500px;
+      margin-bottom:50px;
+     
+      
+    }
+    .line4{
+      content: '';
+      display: block;
+      width: 100px;
+      height: 3px;
+      background: green;
+      border-radius: 25%;
+      margin-top:3px;
+      margin-left:100px;
+     
+      
+    }
+    .indus9
+    {
+      display:flex;
+     
+    }
+    
+    .indus10 img
+    {
+      width:455px;
+      height:377px;
+      margin-left:50px;
+      margin-top:50px;
+    }
+    .indus11
+    {
+       margin-top:150px;
+       margin-left:100px;
+       margin-right:100px;
+       font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+       font-weight:500;
+       font-size:17px;
+       text-align: justify;
+       }
+    
+   
+  .indus10 img
+  {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    -moz-box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    border: 1px solid #ececec;
+  }
+  .sch4 img{
+    width:455px;
+    height:377px;
+    margin-left:50px;
+    margin-top:100px;
+   
+  }
+  .sch3
+  {
+    
+    background: url("/assets/img/bgmap.jpg");
+      background-size: cover;
+     background-repeat: no-repeat;
+     margin-bottom:10%;
+     margin-top:100px;
+     margin-left:600px;
+    
+  }
+      
+  
+  
+  .sch4
+  {
+    display:flex;
+  }
+  .sch5
+  {
+    margin-top:180px;
+    margin-left:100px;
+    margin-right:100px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:500;
+    font-size:17px;
+    text-align: justify;
+  }
+  .sch9
+  {
+    background: url("/assets/img/homebg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    padding: 90px 0px 90px 0px;
+    margin-bottom:30px;
+    
+  }
+  .sch10
+  {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+   text-align:center;
+   font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-left:200px;
+    margin-right:200px;
+  }
+  .sch11
+  {
+    
+    background: url("/assets/img/schoolbg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0px 200px 0px;
+    margin-top:100px;
+  }
+  .sch11 p{
+     
+    font-size:30px;
+    margin-top:-150px;
+    margin-left:290px;
+  }
+  .line3
+  {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: green;
+    border-radius: 25%;
+    margin-top:-22px;
+    margin-left:620px;
+  }
+  .sch1
+  {
+    position:relative;
+  }
+  
+
+  .sch2 h6 {
+    
+    color:white;
+    padding:20px;
+    position:absolute;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:30px;
+    top:130px;
+    left:450px;
+    
+   
+  }
+  
+  /* .item 
+  {
+    margin-top:300px;
+    
+  } */
+  /* .container
+  {
+    margin-top:100px;
+    
+  }
+  .carousel-caption
+  {
+    color:black;
+    text-align:center;
+    font-size:10px;
+    margin-top:1200px;
+  } */
+  /* #myCarousel
+  {
+    width:1200px;
+
+  } */
+
   /* .indus2 h4.
   {
     font-size:20px;

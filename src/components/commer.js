@@ -4,7 +4,7 @@ class Com extends React.Component {
         return (
             <>
             <div class="com1">
-            <img src="assets/img/it2.jpg"/>
+            <img src="assets/img/comvar.png"/>
             <div class="com2">
             <h3>COMMERCIAL SPACES</h3>
             </div>
@@ -16,16 +16,13 @@ class Com extends React.Component {
              <div class="com5">Each business site is different and requires special attention to manage its waste and we have it covered. Commercial spaces come with their own set of challenges and balancing those with the ever-changing needs can be tricky. We offer customized plan to best suit your waste management needs that make managing waste easy and reliable. Being proactive, reliable and environmentally responsible,  we offer turnkey solutions for the different streams of waste that are generated in commercial spaces. help our clients setup economically and environmentally sustainable waste management systems within the premises for both wet and drywaste. </div>
             </div>
             <div class="com6">
-            <div class="com7">Waste Treatment...</div>
+            <div class="com7">Waste Treatments<div class="line4"></div></div>
             <div class="com8">
-           <div class="com9">
-            <img src="assets/img/wet.jpg"/>
-            </div>
-            <div class="com10">
-            <img src="assets/img/picwet.png"/>
+            <div class="com9">
+            <img src="assets/img/drypie.png"/>
             </div>
             <div class="com11">
-            <img src="assets/img/wetrecycle.png"/>
+            <img src="assets/img/wetpie.png"/>
             </div>
             </div>
             </div>

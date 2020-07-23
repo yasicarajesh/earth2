@@ -13,6 +13,7 @@ import Inter from './components/interwaste';
 import House from './components/house';
 import Com from './components/commer';
 import Indus from './components/indus';
+import School from './components/school';
 import {
   BrowserRouter as Router,
   Switch,
@@ -48,12 +49,15 @@ class App extends React.Component{
        <Tophead/><Header/>
         <Route exact path="/login"><Login/></Route>
         <Route exact path="/"><Home/><Inter/></Route>
-        <Route exact path="/Service"><Service/></Route>
         <Route exact path="/about"><About/><Service/></Route>
         <Route exact path="/inter"><Inter/></Route>
         <Route exact path="/house"><House/></Route>
         <Route exact path="/commer"><Com/></Route>
         <Route exact path="/indus"><Indus/></Route>
+        <Route exact path="/sch"><School/></Route>
+
+
+        
 
         
        

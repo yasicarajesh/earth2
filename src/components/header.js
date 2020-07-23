@@ -18,7 +18,7 @@ class Header extends React.Component {
                     
                     <nav class="navigation">
                         <ul class="nav-list">
-                            <li><a class="active" href="#">HOME</a></li>
+                            <li><a class="active" href="/">HOME</a></li>
                             <li><a href="/about">ABOUT</a></li>
                             <div class="dropdown">
                             <li><a href="#">SERVICES<i class='fa fa-caret-down'></i></a><div class="dropdown-content">

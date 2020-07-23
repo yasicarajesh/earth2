@@ -1,11 +1,18 @@
 import React from 'react';
 class House extends React.Component {
+    constructor(props)
+    {
+        super(props);
+        console.log(document.getElementsByTagName("body")[0]);
+        document.getElementsByTagName("body")[0].className="house";
+    }
     render() {
+
        
         return (
             <>
             <div class="house">
-            <img src="assets/img/houseimg.jpg"/>
+            <div class="yabh"><img src="assets/img/houseimg.jpg"/></div>
             <div class="house1">
             <h3>RESIDENTIAL HOMES AND GATED COMMUNITIES</h3>
             </div>
