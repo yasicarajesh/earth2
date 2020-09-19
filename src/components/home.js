@@ -11,9 +11,10 @@ class Home extends React.Component {
             <>
 
             <div class="im">
-            <img src="assets/img/home.jpg"/>
+          
            
         </div>
+        <section id="secst"></section>
         </>
             );
         }

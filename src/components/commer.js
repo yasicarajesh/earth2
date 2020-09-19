@@ -4,10 +4,10 @@ class Com extends React.Component {
         return (
             <>
             <div class="com1">
-            <img src="assets/img/comvar.png"/>
-            <div class="com2">
-            <h3>COMMERCIAL SPACES</h3>
-            </div>
+           <div class="comim"><div class="com2">
+           <h3>COMMERCIAL SPACES</h3>
+           </div></div>
+            
             <div class="com3">
             <h5>Commercial establishments like Tech Parks, Corporate Offices, Malls, Hotels and Venues are not just required to keep the premises clean and safe but also mandated to be compliant to the MSW 2016 Rules.
             </h5></div>

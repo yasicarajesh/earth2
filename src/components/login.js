@@ -11,9 +11,10 @@ class Login extends React.Component {
         
         return (
             <>   
-            <img src="assets/img/loginbg.jpg"/>
-             <div className="parent">
-                <div className="sidenav">
+          
+             <div className="parent1">
+             <div class="pp">
+                <div className="sidel">
                     <div className="login-main-text">
                    <i className="fas fa-user-circle"></i>
                         <h2><center>Login</center></h2>
@@ -23,8 +24,9 @@ class Login extends React.Component {
                             <div className="login-form">
                                 <form>
                                 <div className="form-group">
-                                       <i className="fa fa-user"/>
-                                        <input type="text" className="form-control" placeholder="User Name"/>
+                                       <i class="fa fa-user icon">
+                                       </i>
+                                        <input type="text1" className="form-control" placeholder="User Name"/>
                                         </div>
                                       
                                         <div className="form-group">
@@ -38,6 +40,7 @@ class Login extends React.Component {
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
                 </div>
                 

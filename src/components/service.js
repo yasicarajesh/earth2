@@ -5,16 +5,16 @@ class Service extends React.Component {
       <>
         <section id="client" class="client">
         <div>
-         <p><i class='far fa-smile'/> 232 <br/> Happy Clients </p>
+         <p><i class='far fa-smile'/> 232 <div> Happy Clients</div> </p>
          </div>
          <div>
-         <p><i class='fas fa-project-diagram'/> 521<br/> Projects </p>
+         <p><i class='fas fa-project-diagram'/> 521<div> Projects</div> </p>
          </div>
          <div>
-         <p><i class='fas fa-headset'/> 1,463<br/> Hours of Support</p>
+         <p><i class='fas fa-headset'/> 1,463<div>Hours of Support</div> </p>
          </div>
          <div>
-           <p><i class='fas fa-users'/> 15<br/> Hard Workers</p>
+           <p><i class='fas fa-users'/> 15<div>Hard Workers</div></p>
          </div>
         </section>
     </>
